@@ -6,7 +6,7 @@ Sprite sprite;
 int main() {
 	sf::RenderWindow App(sf::VideoMode(800, 600, 32),
 		"Actividad 1 - Crosshair");
-	texture.loadFromFile("crosshair.png");
+	texture.loadFromFile("assets/crosshair.png");
 	sprite.setTexture(texture);
 	sf::Vector2u windowSize = App.getSize();
 	sf::Vector2u textureSize = texture.getSize();
