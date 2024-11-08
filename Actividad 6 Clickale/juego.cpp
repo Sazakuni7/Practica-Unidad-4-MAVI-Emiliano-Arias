@@ -6,8 +6,8 @@ Juego::Juego() : window(VideoMode(1024, 768), "Actividad 6 - Clickale"), crossha
     window.setMouseCursorVisible(false);//Ocultar cursor del mouse
     srand(static_cast<unsigned int>(time(nullptr)));//nullptr se usa para que time() no guarde el tiempo en una variable, sino que lo devuelva. Luego static_cast para convertir
     //a entero sin signo asi se pueda usar como semilla para randomizar en la próxima ejecución.
-    texturaEnemy.loadFromFile("et.png");
-    texturaMira.loadFromFile("crosshair.png");
+    texturaEnemy.loadFromFile("assets/et.png");
+    texturaMira.loadFromFile("assets/crosshair.png");
     for (int i = 0; i < 5; i++) {
         enemies.emplace_back(texturaEnemy);//emplace_back para crear el nuevo elemento del vector al final de la lista, sin necesidad de hacer una copia como hacemos con push_back
     }
