@@ -1,0 +1,6 @@
+﻿  Splats.cpp
+C:\Users\emi_a\source\repos\Unidad 4\Actividad 3 Splats\Splats.cpp(19,38): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+C:\Users\emi_a\source\repos\Unidad 4\Actividad 3 Splats\Splats.cpp(19,33): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+C:\Users\emi_a\source\repos\Unidad 4\Actividad 3 Splats\Splats.cpp(20,74): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\emi_a\source\repos\Unidad 4\Actividad 3 Splats\Splats.cpp(20,53): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+  Actividad 3 Splats.vcxproj -> C:\Users\emi_a\source\repos\Unidad 4\Actividad 3 Splats\x64\Debug\Actividad 3 Splats.exe
