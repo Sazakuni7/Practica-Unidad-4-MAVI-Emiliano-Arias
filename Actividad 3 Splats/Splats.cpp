@@ -5,8 +5,8 @@ using namespace sf;
 int main() {
     RenderWindow window(VideoMode(800, 600), "Actividad 3 - Splats");
     Texture redTexture, blueTexture;
-    redTexture.loadFromFile("rcircle.png");
-    blueTexture.loadFromFile("rcircleb.png");
+    redTexture.loadFromFile("assets/rcircle.png");
+    blueTexture.loadFromFile("assets/rcircleb.png");
     //Vector para almacenar los sprites
     std::vector<Sprite> sprites;
     while (window.isOpen()) {
@@ -22,7 +22,7 @@ int main() {
                 if (event.mouseButton.button == Mouse::Left) {
                     sprite.setTexture(redTexture);
                     sprites.push_back(sprite); //el metodo push_back guarda en la lista dinamica "sprites" cada sprite generado por click, para que puedan ser dibujados
-                                               //en cada iteración del bucle y no se borren los anteriores
+                                               //en cada iteraciÃ³n del bucle y no se borren los anteriores
                 }
                 else if (event.mouseButton.button == Mouse::Right) {
                     sprite.setTexture(blueTexture);
