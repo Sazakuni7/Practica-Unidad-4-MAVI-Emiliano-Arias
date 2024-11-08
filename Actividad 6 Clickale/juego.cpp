@@ -1,11 +1,11 @@
 #include "juego.h"
 #include "utils.h"
 
-Juego::Juego() : window(VideoMode(800, 600), "Actividad 6 - Clickale"), crosshair(texturaMira), enemigosDerrotados(0) {
+Juego::Juego() : window(VideoMode(1024, 768), "Actividad 6 - Clickale"), crosshair(texturaMira), enemigosDerrotados(0) {
     window.setFramerateLimit(60);
     window.setMouseCursorVisible(false);//Ocultar cursor del mouse
     srand(static_cast<unsigned int>(time(nullptr)));//nullptr se usa para que time() no guarde el tiempo en una variable, sino que lo devuelva. Luego static_cast para convertir
-    //a entero sin signo asi se pueda usar como semilla para randomizar en la próxima ejecución.
+    //a entero sin signo asi se pueda usar como semilla para randomizar en la prÃ³xima ejecuciÃ³n.
     texturaEnemy.loadFromFile("et.png");
     texturaMira.loadFromFile("crosshair.png");
     for (int i = 0; i < 5; i++) {
@@ -14,7 +14,7 @@ Juego::Juego() : window(VideoMode(800, 600), "Actividad 6 - Clickale"), crosshai
     crosshair = Crosshair(texturaMira);
 }
 
-//Método principal para correr el juego
+//MÃ©todo principal para correr el juego
 void Juego::run() {
     while (window.isOpen()) {
         processEvents();
@@ -40,7 +40,7 @@ void Juego::update() {
         std::cout << "Todos los enemigos derrotados. Sos buenisimo!" << std::endl;
         window.close();
     }
-    //Actualizar la posición de la mira
+    //Actualizar la posiciÃ³n de la mira
     Vector2i pixelPos = Mouse::getPosition(window);
     Vector2f worldPos = window.mapPixelToCoords(pixelPos);
     crosshair.updatePosition(worldPos);
