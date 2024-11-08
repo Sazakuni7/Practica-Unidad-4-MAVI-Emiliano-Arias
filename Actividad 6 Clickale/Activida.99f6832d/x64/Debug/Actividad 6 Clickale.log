@@ -1,0 +1,20 @@
+﻿  mainClickale.cpp
+C:\Users\emi_a\source\repos\Unidad 4\Actividad 6 Clickale\Enemy.h(10,30): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+  (compilando archivo de origen "mainClickale.cpp")
+  
+C:\Users\emi_a\source\repos\Unidad 4\Actividad 6 Clickale\Enemy.h(10,25): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+  (compilando archivo de origen "mainClickale.cpp")
+  
+C:\Users\emi_a\source\repos\Unidad 4\Actividad 6 Clickale\Enemy.h(18,31): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+  (compilando archivo de origen "mainClickale.cpp")
+  
+C:\Users\emi_a\source\repos\Unidad 4\Actividad 6 Clickale\Enemy.h(18,28): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+  (compilando archivo de origen "mainClickale.cpp")
+  
+C:\Users\emi_a\source\repos\Unidad 4\Actividad 6 Clickale\Crosshair.h(7,30): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+  (compilando archivo de origen "mainClickale.cpp")
+  
+C:\Users\emi_a\source\repos\Unidad 4\Actividad 6 Clickale\Crosshair.h(7,25): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+  (compilando archivo de origen "mainClickale.cpp")
+  
+  Actividad 6 Clickale.vcxproj -> C:\Users\emi_a\source\repos\Unidad 4\Actividad 6 Clickale\x64\Debug\Actividad 6 Clickale.exe
