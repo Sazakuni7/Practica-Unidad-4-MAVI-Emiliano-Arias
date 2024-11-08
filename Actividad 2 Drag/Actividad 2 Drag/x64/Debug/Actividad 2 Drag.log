@@ -1,0 +1,24 @@
+﻿  Drag.cpp
+C:\Users\emi_a\source\repos\Unidad 4\Actividad 2 Drag\Drag.cpp(12,27): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+C:\Users\emi_a\source\repos\Unidad 4\Actividad 2 Drag\Drag.cpp(12,22): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+C:\Users\emi_a\source\repos\Unidad 4\Actividad 2 Drag\Drag.cpp(30,88): warning C4244: 'argumento': conversión de 'int' a 'T'; posible pérdida de datos
+C:\Users\emi_a\source\repos\Unidad 4\Actividad 2 Drag\Drag.cpp(30,88): warning C4244:         with
+C:\Users\emi_a\source\repos\Unidad 4\Actividad 2 Drag\Drag.cpp(30,88): warning C4244:         [
+C:\Users\emi_a\source\repos\Unidad 4\Actividad 2 Drag\Drag.cpp(30,88): warning C4244:             T=float
+C:\Users\emi_a\source\repos\Unidad 4\Actividad 2 Drag\Drag.cpp(30,88): warning C4244:         ]
+C:\Users\emi_a\source\repos\Unidad 4\Actividad 2 Drag\Drag.cpp(30,67): warning C4244: 'argumento': conversión de 'int' a 'T'; posible pérdida de datos
+C:\Users\emi_a\source\repos\Unidad 4\Actividad 2 Drag\Drag.cpp(30,67): warning C4244:         with
+C:\Users\emi_a\source\repos\Unidad 4\Actividad 2 Drag\Drag.cpp(30,67): warning C4244:         [
+C:\Users\emi_a\source\repos\Unidad 4\Actividad 2 Drag\Drag.cpp(30,67): warning C4244:             T=float
+C:\Users\emi_a\source\repos\Unidad 4\Actividad 2 Drag\Drag.cpp(30,67): warning C4244:         ]
+C:\Users\emi_a\source\repos\Unidad 4\Actividad 2 Drag\Drag.cpp(43,80): warning C4244: 'argumento': conversión de 'int' a 'T'; posible pérdida de datos
+C:\Users\emi_a\source\repos\Unidad 4\Actividad 2 Drag\Drag.cpp(43,80): warning C4244:         with
+C:\Users\emi_a\source\repos\Unidad 4\Actividad 2 Drag\Drag.cpp(43,80): warning C4244:         [
+C:\Users\emi_a\source\repos\Unidad 4\Actividad 2 Drag\Drag.cpp(43,80): warning C4244:             T=float
+C:\Users\emi_a\source\repos\Unidad 4\Actividad 2 Drag\Drag.cpp(43,80): warning C4244:         ]
+C:\Users\emi_a\source\repos\Unidad 4\Actividad 2 Drag\Drag.cpp(43,61): warning C4244: 'argumento': conversión de 'int' a 'T'; posible pérdida de datos
+C:\Users\emi_a\source\repos\Unidad 4\Actividad 2 Drag\Drag.cpp(43,61): warning C4244:         with
+C:\Users\emi_a\source\repos\Unidad 4\Actividad 2 Drag\Drag.cpp(43,61): warning C4244:         [
+C:\Users\emi_a\source\repos\Unidad 4\Actividad 2 Drag\Drag.cpp(43,61): warning C4244:             T=float
+C:\Users\emi_a\source\repos\Unidad 4\Actividad 2 Drag\Drag.cpp(43,61): warning C4244:         ]
+  Actividad 2 Drag.vcxproj -> C:\Users\emi_a\source\repos\Unidad 4\Actividad 2 Drag\x64\Debug\Actividad 2 Drag.exe
