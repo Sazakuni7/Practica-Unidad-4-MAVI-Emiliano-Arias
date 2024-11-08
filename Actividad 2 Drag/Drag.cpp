@@ -6,7 +6,7 @@ Sprite sprite[4];
 bool arrastrando[4] = {false, false, false, false};
 Vector2f mouseOffset[4];
 int main() {
-	texture.loadFromFile("rcircle.png");
+	texture.loadFromFile("assets/rcircle.png");
 	for (int i = 0; i < 4; i++) {
 		sprite[i].setTexture(texture);
 		sprite[i].setScale(0.4, 0.4);
@@ -43,7 +43,7 @@ int main() {
                 Vector2f mousePos = Vector2f(event.mouseMove.x, event.mouseMove.y);
                 for (int i = 0; i < 4; i++) {
                     if (arrastrando[i]) {
-                        sprite[i].setPosition(mousePos - mouseOffset[i]); //*Esto es útil para arrastrar el objeto desde donde se clickeó y que no aparezca justo debajo del cursor
+                        sprite[i].setPosition(mousePos - mouseOffset[i]); //*Esto es Ãºtil para arrastrar el objeto desde donde se clickeÃ³ y que no aparezca justo debajo del cursor
                     }
                 }
             }
