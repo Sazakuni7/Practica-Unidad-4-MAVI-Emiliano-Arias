@@ -4,8 +4,8 @@ using namespace sf;
 int main() {
     RenderWindow window(VideoMode(800, 600), "Actividad 5 - Atrapado");
     Texture textureCuadrado, textureCirculo;
-    textureCuadrado.loadFromFile("cuad_yellow.png");
-    textureCirculo.loadFromFile("rcircleg.png");
+    textureCuadrado.loadFromFile("assets/cuad_yellow.png");
+    textureCirculo.loadFromFile("assets/rcircleg.png");
     Sprite shape;
     shape.setTexture(textureCuadrado);
     shape.setPosition(400, 300);
@@ -47,7 +47,7 @@ int main() {
             }
             //Por algun motivo, al cambiar de forma a circulo, el espacio para moverlo se reduce, como si los bounds del sprite chocaran antes con los bounds de la ventana
             //Sin embargo esto no sucede si uso el cuadrado. El sprite del circulo esta reescalado para que coincida con el del cuadrado.
-            //Los espacios transparentes del circulo tampoco son mayores a los limites del sprite cuadrado, aún así este error ocurre. Seguiré investigando como solucionarlo
+            //Los espacios transparentes del circulo tampoco son mayores a los limites del sprite cuadrado, aÃºn asÃ­ este error ocurre. SeguirÃ© investigando como solucionarlo
             //De momento cumple con la consigna de no salirse del espacio visible
             Vector2f position = shape.getPosition();
             if (position.x < 0) position.x = 0;
