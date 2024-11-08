@@ -1,0 +1,8 @@
+﻿  Atrapado.cpp
+C:\Users\emi_a\source\repos\Unidad 4\Actividad 4 Atrapado\Atrapado.cpp(12,25): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+C:\Users\emi_a\source\repos\Unidad 4\Actividad 4 Atrapado\Atrapado.cpp(12,20): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+C:\Users\emi_a\source\repos\Unidad 4\Actividad 4 Atrapado\Atrapado.cpp(40,37): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+C:\Users\emi_a\source\repos\Unidad 4\Actividad 4 Atrapado\Atrapado.cpp(40,32): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+C:\Users\emi_a\source\repos\Unidad 4\Actividad 4 Atrapado\Atrapado.cpp(45,37): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+C:\Users\emi_a\source\repos\Unidad 4\Actividad 4 Atrapado\Atrapado.cpp(45,32): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+  Actividad 4 Atrapado.vcxproj -> C:\Users\emi_a\source\repos\Unidad 4\Actividad 4 Atrapado\x64\Debug\Actividad 4 Atrapado.exe
